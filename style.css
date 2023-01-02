@@ -1,0 +1,120 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@200;300;400;500;600;700&display=swap');
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Poppins', sans-serif;
+}
+
+body{
+    background: #007bff;
+} 
+
+#start{
+    font-size: 1.5em;
+    color: #007bff;
+    position: absolute;
+    bottom: 50%;
+    left: 45%;
+    padding: 0.5em 1em;
+    border-radius: 1em;
+    background-color: white
+}
+
+#start:hover{
+    cursor: pointer;
+    color: #004085;
+}
+
+.quiz{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    margin-top: 10rem;
+    margin-left: 20rem;
+    margin-right: 20rem;
+    padding: 1rem;
+    background-color: white;
+    border-radius: 2em;   
+}
+
+#questions{
+    color: #007bff;
+    text-align: center;
+    margin: 2px;
+}
+
+#timer{
+    display: flex;
+    margin: 2px;
+    padding: 2px;
+    color: #007bff;
+    border: 2px solid #007bff;
+    width: 10%;
+    justify-content: center;
+}
+
+.choice-container{
+    display: flex;
+    /* justify-content: center; */
+    margin-left: 40%;
+    width: max-content;
+}
+
+.choice-container:hover{
+    box-shadow: 0 0.4rem 1.4rem 0 #007bff;
+    cursor: pointer; 
+}
+.choice-prefix{
+    /* border: 2px solid red; */
+    display: block;
+    color: white;
+    background-color: #007bff;
+    padding: 3px;
+    margin: 2px;
+    
+}
+
+.choice-text{
+    /* border: 2px solid red; */
+    /* display: block; */
+    color: #007bff;
+    background-color: white;
+    padding: 3px;
+    margin: 2px;
+}
+
+#progress{
+    display: flex;
+    margin: 2px;
+    padding: 2px;
+    color: #007bff;
+    border: 2px solid #007bff;
+    width: max-content;
+    justify-content: center;
+}
+
+#Scorecontainer{
+    font-size: 1.5em;
+    color: #007bff;
+    position: absolute;
+    bottom: 50%;
+    left: 45%;
+    padding: 0.5em 1em;
+    border-radius: 1em;
+    background-color: white
+}
+
+#Scorecontainer:hover{
+    color: #004085;
+}
+
+#time{
+    display: flex;
+    margin: 2px;
+    padding: 2px;
+    color: #007bff;
+    /* border: 2px solid #007bff; */
+    width: 10%;
+    justify-content: center;
+}
